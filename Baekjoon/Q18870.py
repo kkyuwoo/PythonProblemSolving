@@ -9,6 +9,5 @@ n = int(input())
 arr = list(map(int, input().split()))
 result = sorted(list(set(arr)))
 dic = {result[i]: i for i in range(len(result))}
-print(dic)
 for i in arr:
     print(dic[i], end=' ')
